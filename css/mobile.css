@@ -1,0 +1,93 @@
+@media (max-width: 576px) {
+  #banner {
+    height: 50vh;
+  }
+
+  /* -----NAVIGATION----- */
+  #nav-bar .d-flex {
+    flex-direction: column;
+  }
+
+  #nav-bar a {
+    border: none;
+  }
+
+  /* ------ABOUT------ */
+  /* DA SU DUNG BOOTSTRAP */
+
+  /* ------JOB-INFO------ */
+  #job-info .container {
+    width: 100%;
+  }
+
+  .card {
+    padding: 64px 32px 20px;
+  }
+
+  /* -------CERTIFICATE------ */
+  #certificate .container {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  #certificate .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #certificate .content img {
+    width: 100%;
+  }
+
+  .cf {
+    padding: 0 0 8px;
+    flex-direction: column;
+    border-bottom: 1px solid var(--border-orange-color);
+  }
+
+  .cf--1 {
+    border-right: none;
+  }
+
+  .cf--2,
+  .cf--3 {
+    padding-top: 40px;
+  }
+
+  .cf--3 {
+    border-top: none;
+    border-bottom: none;
+  }
+
+  /* -------PROJECT------- */
+  #project .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .project img {
+    width: 100%;
+  }
+
+  .col {
+    margin-bottom: 30px;
+  }
+
+  .user,
+  .lamp {
+    display: block;
+    margin: 8px 0 0;
+  }
+
+  /* ---------FOOTER-------- */
+  #footer .container {
+    width: 100%;
+  }
+
+  #footer li {
+    display: none;
+  }
+
+  /* -----------PROJECT CHARTER------------ */
+}

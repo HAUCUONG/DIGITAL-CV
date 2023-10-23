@@ -1,0 +1,142 @@
+@media (max-width: 1300px) {
+  #banner {
+    background-size: 100% 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* -----BANNER------- */
+  #banner {
+    height: 60vh;
+  }
+
+  /* ----NAVIGATION---- */
+  #nav-bar img {
+    display: none;
+  }
+
+  #nav-bar a {
+    padding: 12px 24px;
+  }
+
+  /* -----ABOUT------ */
+  #target,
+  #personal-info {
+    padding: 64px 24px 32px;
+  }
+
+  /* ------JOB-INFO------ */
+  .card {
+    padding: 64px 20px 20px;
+  }
+
+  /* -------CERTIFICATE------ */
+  #certificate .container {
+    max-width: 570px;
+  }
+
+  .content img {
+    width: 100%;
+  }
+
+  #certificate .content {
+    grid-template-rows: 209px 1fr;
+    padding: 0;
+    column-gap: 0;
+  }
+
+  .cf {
+    flex-direction: column;
+  }
+
+  .cf div {
+    margin: 0;
+  }
+
+  .cf--2 {
+    padding-left: 12px;
+  }
+
+  .cf--3 {
+    padding-top: 30px;
+    align-items: flex-start;
+  }
+
+  .cf--3 img {
+    width: 272px;
+  }
+
+  .cf--1 {
+    padding-right: 12px;
+  }
+
+  /* -------PROJECT------- */
+  #project .container {
+    max-width: 570px;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .project img {
+    width: 100%;
+  }
+
+  .div-3,
+  .div-4,
+  .div-5 {
+    grid-template-columns: 30% 70%;
+  }
+
+  .lamp {
+    display: block;
+    margin-left: 56px;
+  }
+
+  /* ----------------PROJECT CHARTER--------------- */
+  .project-charter .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  header a {
+    font-size: 14px;
+    margin-top: 4px;
+    align-self: flex-start;
+  }
+
+  #timeline {
+    order: 1;
+  }
+
+  #scopes .content {
+    flex-direction: column;
+    margin-top: 8px;
+  }
+
+  .goal,
+  .team,
+  .primary,
+  .timeline {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 8px;
+  }
+
+  #timeline .content {
+    margin-top: 16px;
+  }
+
+  .order {
+    justify-self: flex-start;
+  }
+
+  .date {
+    padding-top: 0;
+  }
+}
